@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "React_airlines_backend", "React_airlines_backend\React_airlines_backend.csproj", "{BD3CDE93-BF37-4299-8389-1E3CC3862BCA}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "react_airlines_frontend", "React_airlines_frontend\react_airlines_frontend.esproj", "{B7146D22-BF81-4611-9298-313998764B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_EFCore", "React_airlines_EFCore\React_airlines_EFCore.csproj", "{9F914E44-63BE-4013-BE68-E0AA70C846C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_common", "React_airlines_common\React_airlines_common.csproj", "{19E26877-3B63-4BB2-A1FD-3FA489477A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD3CDE93-BF37-4299-8389-1E3CC3862BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3CDE93-BF37-4299-8389-1E3CC3862BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3CDE93-BF37-4299-8389-1E3CC3862BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3CDE93-BF37-4299-8389-1E3CC3862BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7146D22-BF81-4611-9298-313998764B28}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F914E44-63BE-4013-BE68-E0AA70C846C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F914E44-63BE-4013-BE68-E0AA70C846C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F914E44-63BE-4013-BE68-E0AA70C846C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F914E44-63BE-4013-BE68-E0AA70C846C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3923C055-1668-4A89-869F-74E75B66DE6F}
+	EndGlobalSection
+EndGlobal
