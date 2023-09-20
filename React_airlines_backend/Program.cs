@@ -1,12 +1,18 @@
 using React_airlines_backend.Middleware;
+using React_airlines_DI;
 
 var builder = WebApplication.CreateBuilder(args);
+IConfigurationRoot config = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .AddEnvironmentVariables()
+    .Build();
 
 // Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDependencies(config);
 
 var app = builder.Build();
 

@@ -7,9 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "React_airlines_backend", "R
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "react_airlines_frontend", "React_airlines_frontend\react_airlines_frontend.esproj", "{B7146D22-BF81-4611-9298-313998764B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_EFCore", "React_airlines_EFCore\React_airlines_EFCore.csproj", "{9F914E44-63BE-4013-BE68-E0AA70C846C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "React_airlines_EFCore", "React_airlines_EFCore\React_airlines_EFCore.csproj", "{9F914E44-63BE-4013-BE68-E0AA70C846C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_common", "React_airlines_common\React_airlines_common.csproj", "{19E26877-3B63-4BB2-A1FD-3FA489477A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "React_airlines_common", "React_airlines_common\React_airlines_common.csproj", "{19E26877-3B63-4BB2-A1FD-3FA489477A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_RepositoryInterface", "React_airlines_RepositoryInterface\React_airlines_RepositoryInterface.csproj", "{9452448F-AA9C-4B03-999E-970226133AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_ServiceInterface", "React_airlines_ServiceInterface\React_airlines_ServiceInterface.csproj", "{7C35002A-9A65-43D4-B7FD-97D23A8233AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_Service", "React_airlines_Service\React_airlines_Service.csproj", "{88E6CD38-68AF-4813-B514-398D8A96FA25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "React_airlines_DI", "React_airlines_DI\React_airlines_DI.csproj", "{B16A1A8F-8B1C-4466-A032-0F7FF80D44E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,22 @@ Global
 		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E26877-3B63-4BB2-A1FD-3FA489477A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9452448F-AA9C-4B03-999E-970226133AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9452448F-AA9C-4B03-999E-970226133AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9452448F-AA9C-4B03-999E-970226133AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9452448F-AA9C-4B03-999E-970226133AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C35002A-9A65-43D4-B7FD-97D23A8233AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C35002A-9A65-43D4-B7FD-97D23A8233AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C35002A-9A65-43D4-B7FD-97D23A8233AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C35002A-9A65-43D4-B7FD-97D23A8233AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E6CD38-68AF-4813-B514-398D8A96FA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E6CD38-68AF-4813-B514-398D8A96FA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E6CD38-68AF-4813-B514-398D8A96FA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E6CD38-68AF-4813-B514-398D8A96FA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16A1A8F-8B1C-4466-A032-0F7FF80D44E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16A1A8F-8B1C-4466-A032-0F7FF80D44E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16A1A8F-8B1C-4466-A032-0F7FF80D44E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16A1A8F-8B1C-4466-A032-0F7FF80D44E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace React_airlines_EFCore.Models
     public class User
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public required string Name { get; set; }
+        public required string Surname { get; set; }
     }
 }

@@ -12,4 +12,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\React_airlines_common\React_airlines_common.csproj" />
+    <ProjectReference Include="..\React_airlines_DI\React_airlines_DI.csproj" />
+  </ItemGroup>
+
 </Project>
