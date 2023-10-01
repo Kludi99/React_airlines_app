@@ -13,7 +13,7 @@ namespace React_airlines_DI
     {
         public static void AddDependencies(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         }
     }
