@@ -15,6 +15,7 @@ namespace React_airlines_DI
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
         }
     }
 }
