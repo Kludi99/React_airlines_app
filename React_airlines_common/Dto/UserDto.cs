@@ -9,7 +9,9 @@ namespace React_airlines_common.Dto
     public class UserDto
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public required string Name { get; set; }
+        public required string Surname { get; set; }
+        public required string Email { get; set; }
+        public required string Password { get; set; }
     }
 }

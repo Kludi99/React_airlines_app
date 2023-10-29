@@ -5,8 +5,8 @@ using Riok.Mapperly.Abstractions;
 namespace React_airlines_EFCore.Mapper
 {
     [Mapper]
-    public partial class UserMapper
+    public static partial class UserMapper
     {
-        public partial UserDto UserToUserDto(User user);
+        public static partial UserDto UserToUserDto(User user);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using React_airlines_common.Dto;
+using React_airlines_ServiceInterface;
 
 namespace React_airlines_backend.Controllers
 {
@@ -8,11 +9,13 @@ namespace React_airlines_backend.Controllers
     [Route("[controller]")]
     public class UserController : ControllerBase
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<UserController> logger;
+        private readonly IUserService userService;
 
-        public UserController(ILogger<UserController> logger)
+        public UserController(ILogger<UserController> logger, IUserService userService)
         {
-            _logger = logger;
+            this.logger = logger;
+            this.userService = userService;
         }
 
         [HttpGet("{id}")]
@@ -21,7 +24,8 @@ namespace React_airlines_backend.Controllers
             if (id < 0)
                 return BadRequest();
 
-            return Ok();
+            var result = userService.GetUserById(id);
+            return Ok(result);
         }
 
         [HttpPost]

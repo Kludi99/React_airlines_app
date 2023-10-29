@@ -6,6 +6,7 @@ using React_airlines_RepositoryInterface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using React_airlines_EFCore.AppDbContext;
+using System.Reflection;
 
 namespace React_airlines_DI
 {
@@ -15,7 +16,7 @@ namespace React_airlines_DI
         {
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            services.AddScoped(typeof(IGenericService<>), typeof(GenericService<>));
+            services.AddServicesFromAssembly(typeof(GenericService).Assembly);
         }
     }
 }

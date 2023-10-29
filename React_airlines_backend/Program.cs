@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using React_airlines_backend.Middleware;
 using React_airlines_DI;
 
@@ -8,7 +9,9 @@ IConfigurationRoot config = new ConfigurationBuilder()
     .Build();
 
 var configuration = builder.Configuration;
-
+var test = configuration["Authentication:Google:ClientId"];
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
 builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 {
     googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
@@ -35,7 +38,7 @@ app.UseHttpsRedirection();
 
 app.UseCorsMiddleware();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 
