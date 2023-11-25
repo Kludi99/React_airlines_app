@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\React_airlines_common\React_airlines_common.csproj" />
     <ProjectReference Include="..\React_airlines_DI\React_airlines_DI.csproj" />
+    <ProjectReference Include="..\React_airlines_Domain\React_airlines_Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using React_airlines_common.Dto;
-using React_airlines_ServiceInterface;
+using React_airlines_Core.Interfaces.Models.Dto;
+using React_airlines_Core.Interfaces.Services;
 
 namespace React_airlines_backend.Controllers
 {
@@ -24,7 +24,7 @@ namespace React_airlines_backend.Controllers
             if (id < 0)
                 return BadRequest();
 
-            var result = userService.GetUserById(id);
+            var result = await userService.GetUserById(id);
             return Ok(result);
         }
 

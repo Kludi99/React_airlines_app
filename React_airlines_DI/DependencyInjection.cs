@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using React_airlines_EFCore.Repositories;
-using React_airlines_Service;
-using React_airlines_ServiceInterface;
-using React_airlines_RepositoryInterface;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using React_airlines_EFCore.AppDbContext;
 using System.Reflection;
+using React_airlines_EFCore.Interfaces.Repositories;
+using React_airlines_Core.Common;
+
 
 namespace React_airlines_DI
 {

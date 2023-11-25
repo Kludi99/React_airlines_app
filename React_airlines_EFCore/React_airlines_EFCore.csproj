@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -16,10 +16,4 @@
     </PackageReference>
     <PackageReference Include="Riok.Mapperly" Version="3.1.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\React_airlines_common\React_airlines_common.csproj" />
-    <ProjectReference Include="..\React_airlines_RepositoryInterface\React_airlines_RepositoryInterface.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -17,7 +17,6 @@
   <ItemGroup>
     <ProjectReference Include="..\React_airlines_common\React_airlines_common.csproj" />
     <ProjectReference Include="..\React_airlines_EFCore\React_airlines_EFCore.csproj" />
-    <ProjectReference Include="..\React_airlines_RepositoryInterface\React_airlines_RepositoryInterface.csproj" />
     <ProjectReference Include="..\React_airlines_ServiceInterface\React_airlines_ServiceInterface.csproj" />
   </ItemGroup>
 

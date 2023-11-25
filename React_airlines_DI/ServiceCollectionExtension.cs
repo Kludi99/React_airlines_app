@@ -1,13 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using React_airlines_Core.Interfaces.Services;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using React_airlines_ServiceInterface;
-using React_airlines_Service;
+
 
 namespace React_airlines_DI
 {
